@@ -1,0 +1,58 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.omni.co/developers/cli
+name: omni
+language: go
+repo: https://github.com/exploreomni/cli
+docs: https://docs.omni.co/developers/cli
+install:
+- method: homebrew
+  command: brew install exploreomni/tap/omni
+- method: github
+  command: See https://github.com/exploreomni/cli#readme
+auth:
+  methods:
+  - oauth
+  - api_key
+  notes: >-
+    Profiles authenticate with OAuth 2.1 (browser flow, `omni config login`) or
+    an API key. Profiles managed via `omni config init/show/use`.
+commands:
+- name: config
+  description: Manage CLI profiles and authentication.
+- name: agent-help
+  description: Print a concise usage guide formatted for AI agents.
+- name: ai
+  description: AI-powered query generation, job management, and documentation search.
+- name: ai-routines
+  description: Create and manage scheduled prompts delivered via email or Slack.
+- name: connections
+  description: Manage database connections, dbt configurations, and schema refresh schedules.
+- name: content
+  description: List dashboards, workbooks, and folders in your organization.
+- name: dashboards
+  description: Download dashboards and manage dashboard filters.
+- name: documents
+  description: Create, manage, and configure documents with permissions and labels.
+- name: embed
+  description: Generate SSO sessions for embedded Omni instances.
+- name: folders
+  description: Manage folders and folder permissions.
+- name: labels
+  description: Create and manage content labels.
+- name: models
+  description: Manage models, views, fields, topics, branches, and YAML configuration.
+- name: query
+  description: Run and monitor query execution.
+- name: scim
+  description: Handle user and group provisioning.
+- name: schedules
+  description: Manage delivery schedules and recipients.
+- name: unstable
+  description: Preview commands that may change without notice.
+- name: uploads
+  description: Manage CSV and Excel file uploads.
+- name: user-attributes
+  description: View user attribute definitions.
+- name: users
+  description: Manage user and group model roles.

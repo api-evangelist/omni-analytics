@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/exploreomni
+packages:
+- language: python
+  registry: pypi
+  name: omni-python-sdk
+  version: 0.1.11
+  url: https://pypi.org/project/omni-python-sdk/
+  repo: https://github.com/exploreomni/omni-python-sdk
+  install: pip install omni-python-sdk
+  official: true
+  description: Python SDK for the Omni API (run_query_blocking, to_pandas).
+- language: go
+  registry: github
+  name: omni
+  url: https://github.com/exploreomni/cli
+  install: brew install exploreomni/tap/omni
+  official: true
+  description: First-party Omni CLI (Go); also distributed via Homebrew tap exploreomni/homebrew-tap.
+- language: typescript
+  registry: npm
+  name: omnikit
+  url: https://www.npmjs.com/package/omnikit
+  repo: https://github.com/exploreomni/OmniKit
+  install: npm install omnikit
+  official: true
+  description: Local-first admin workspace for managing content, semantic layers, and dashboards.
+- language: javascript
+  registry: npm
+  name: vega-omni
+  url: https://github.com/exploreomni/vega-omni
+  official: true
+  description: Omni fork of the Vega visualization grammar.
+- language: typescript
+  registry: npm
+  name: vega-lite-omni
+  url: https://github.com/exploreomni/vega-lite-omni
+  official: true
+  description: Omni fork of the Vega-Lite interactive graphics library.

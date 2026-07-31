@@ -1,0 +1,46 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/exploreomni/omni-agent-skills
+description: >-
+  Omni publishes a first-party library of Agent Skills (SKILL.md + AGENTS.md,
+  MIT-licensed) at github.com/exploreomni/omni-agent-skills. Two are saved
+  verbatim here; the rest are catalogued with their upstream raw locations.
+saved_verbatim:
+- file: omni-analytics-AGENTS.md
+  name: Contributing with Agents (AGENTS.md)
+  source: https://raw.githubusercontent.com/exploreomni/omni-agent-skills/main/AGENTS.md
+- file: omni-analytics-omni-query.md
+  name: omni-query
+  source: https://raw.githubusercontent.com/exploreomni/omni-agent-skills/main/skills/omni-query/SKILL.md
+skills:
+- name: omni-model-explorer
+  description: Discover and inspect models, topics, views, fields, dimensions, measures, and relationships.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-model-explorer/SKILL.md
+- name: omni-model-builder
+  description: Create and edit views, topics, dimensions, measures, and relationships in YAML.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-model-builder/SKILL.md
+- name: omni-query
+  description: Run queries against Omni's semantic layer and interpret results.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-query/SKILL.md
+  file: omni-analytics-omni-query.md
+- name: omni-content-explorer
+  description: Find, browse, and organize dashboards, workbooks, and folders.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-content-explorer/SKILL.md
+- name: omni-content-builder
+  description: Create, update, and manage documents and dashboards programmatically.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-content-builder/SKILL.md
+- name: omni-ai-optimizer
+  description: Optimize your Omni model for Blobby, the Omni Agent.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-ai-optimizer/SKILL.md
+- name: omni-admin
+  description: Manage connections, users, groups, permissions, schedules, and schema refreshes.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-admin/SKILL.md
+- name: omni-embed
+  description: Embed Omni dashboards in external applications.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-embed/SKILL.md
+- name: omni-ai-eval
+  description: Evaluate AI query generation accuracy.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-ai-eval/SKILL.md
+- name: omni-to-snowflake-semantic-view
+  description: Convert Omni topics to Snowflake Semantic View definitions.
+  source: https://github.com/exploreomni/omni-agent-skills/blob/main/skills/omni-integrations/skills/omni-to-snowflake-semantic-view/SKILL.md

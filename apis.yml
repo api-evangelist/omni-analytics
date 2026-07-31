@@ -1,8 +1,34 @@
 aid: omni-analytics
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omni-analytics.png
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 16
+  pass: local-v1
 name: Omni Analytics
-description: 'Omni Analytics is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Omni is a business intelligence and embedded analytics platform that turns raw
+  warehouse data into trusted insights. It combines a central semantic layer with
+  an AI chat interface, dashboards, spreadsheets, a point-and-click builder, and a
+  SQL IDE, so data teams and business users can query data conversationally and
+  then refine results with traditional analytics tools. Omni exposes a REST API,
+  a hosted MCP server, a Go CLI, a Python SDK, and a library of published Agent
+  Skills for programmatic and agent-driven access, plus white-label embedded
+  analytics via SSO. It connects to Snowflake, BigQuery, Databricks, dbt and other
+  warehouses, and is backed by GV (Google Ventures). Customers include Condé Nast,
+  BuzzFeed, Perplexity, dbt Labs, and TripAdvisor.
 url: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +38,102 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
-apis: []
+- Analytics
+- Business Intelligence
+- Embedded Analytics
+- Semantic Layer
+- Artificial Intelligence
+- Data
+- MCP
+apis:
+- name: Omni REST API
+  description: >-
+    The Omni REST API provides programmatic access to an Omni instance: models,
+    topics, views and fields; documents, dashboards and folders; query execution
+    and scheduling; users, groups and permissions; connections and dbt; uploads;
+    and AI operations. The API base URL mirrors your Omni login URL with /api
+    appended (for example https://<instance>.omniapp.co/api) and accepts HTTPS
+    only. Authentication is via API key bearer token or OAuth 2.1.
+  humanURL: https://docs.omni.co/docs/API
+  baseURL: https://omniapp.co/api
+  properties:
+  - type: Documentation
+    url: https://docs.omni.co/docs/API
+  - type: Authentication
+    url: authentication/omni-analytics-authentication.yml
+  - type: MCPServer
+    url: mcp/omni-analytics-mcp.yml
+  - type: Conventions
+    url: conventions/omni-analytics-conventions.yml
+  - type: Conformance
+    url: conformance/omni-analytics-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/omni-analytics-trust-center.yml
+- type: DomainSecurity
+  url: security/omni-analytics-domain-security.yml
 - type: Website
   url: exploreomni.com
+- type: DeveloperPortal
+  url: https://docs.omni.co
+- type: Documentation
+  url: https://docs.omni.co
+- type: APIReference
+  url: https://docs.omni.co/docs/API
+- type: GettingStarted
+  url: https://docs.omni.co/docs/API
+- type: Blog
+  url: https://exploreomni.com/blog
+- type: Support
+  url: https://exploreomni.com/customer-support
+- type: Community
+  url: https://community.omni.co
+- type: GitHubOrganization
+  url: https://github.com/exploreomni
+- type: SignUp
+  url: https://exploreomni.com/demo
+- type: TermsOfService
+  url: https://exploreomni.com/terms
+- type: PrivacyPolicy
+  url: https://exploreomni.com/privacy
+- type: StatusPage
+  url: https://status.omni.co
+- type: Compliance
+  url: https://exploreomni.com/security
+- type: Security
+  url: https://exploreomni.com/security
+- type: ChangeLog
+  url: https://docs.omni.co/changelog
+- type: ChangeLog
+  url: changelog/omni-analytics-changelog.yml
+- type: Packages
+  url: packages/omni-analytics-packages.yml
+- type: SDKs
+  url: packages/omni-analytics-packages.yml
+- type: CLI
+  url: cli/omni-analytics-cli.yml
+- type: MCPServer
+  url: mcp/omni-analytics-mcp.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: Authentication
+  url: authentication/omni-analytics-authentication.yml
+- type: Conventions
+  url: conventions/omni-analytics-conventions.yml
+- type: Conformance
+  url: conformance/omni-analytics-conformance.yml
+- type: Components
+  url: components/omni-analytics-components.yml
+- type: Lifecycle
+  url: lifecycle/omni-analytics-lifecycle.yml
+- type: LLMsTxt
+  url: llms/omni-analytics-llms.txt

@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.omni.co
+families:
+- name: Embedded Analytics
+  description: >-
+    White-label embedding of Omni dashboards and workbooks into external SaaS
+    applications via SSO-authenticated embed sessions, with theming (CSS
+    variables) and timezone/filter overrides in embed URLs.
+  docs: https://docs.omni.co
+  loaders:
+  - name: embed SSO session
+    via: Omni CLI `embed` command / embed API
+- name: Apps
+  description: >-
+    Omni Apps framework for building custom, embeddable data experiences on top
+    of the semantic layer, with CSS-variable theming and AccessBoost.
+  docs: https://docs.omni.co
+- name: Visualization grammar
+  description: >-
+    Omni forks of Vega and Vega-Lite powering charts; consumable as client-side
+    libraries.
+  loaders:
+  - name: vega-omni
+    url: https://github.com/exploreomni/vega-omni
+  - name: vega-lite-omni
+    url: https://github.com/exploreomni/vega-lite-omni

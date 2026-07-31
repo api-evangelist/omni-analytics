@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.omni.co/docs/API
+docs: https://docs.omni.co/docs/API
+summary:
+  types:
+  - http
+  - oauth2
+  http_scheme: bearer
+  oauth2_flows:
+  - authorizationCode
+  notes: >-
+    The Omni REST API accepts HTTPS only. Requests authenticate with an API key
+    presented as a bearer token in the Authorization header. OAuth 2.1 is also
+    supported (recommended for the MCP server and CLI): a browser flow under
+    which Omni creates API keys automatically; requires Personal Access Tokens
+    to be enabled. API keys are managed under the account's API tokens settings.
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  location: header
+  description: Omni API key sent as a bearer token in the Authorization header.
+- name: oauth2
+  type: oauth2
+  flow: authorizationCode
+  version: '2.1'
+  description: OAuth 2.1 browser flow (Personal Access Tokens); Omni provisions API keys on your behalf.
+identity_providers:
+  note: >-
+    For instance sign-in Omni supports SAML/OIDC IdPs (Microsoft Entra, Okta,
+    Google Workspace) and SCIM auto-provisioning; these govern user login, not
+    the REST API bearer/OAuth described above.

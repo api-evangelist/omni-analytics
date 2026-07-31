@@ -1,0 +1,53 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.omni.co/changelog
+scheme: weekly-date
+current: Week of July 13, 2026
+entries:
+- version: Week of July 13, 2026
+  highlights:
+  - AI model suggestion generation
+  - Mobile dashboard settings
+  - OAuth for databases
+  - UK/Australia Azure regions support
+  - Numerous API enhancements
+- version: Week of July 6, 2026
+  highlights:
+  - Slack integration for AI routines
+  - Floating avatar access for Omni Agent
+  - Per-method sign-in settings
+  - MCP tools configuration
+- version: Week of June 29, 2026
+  highlights:
+  - AccessBoost for Apps
+  - HTTPS deploy-token authentication for dbt
+  - Filter suggestions in dashboard properties
+  - CSS variables for App theming
+- version: Week of June 22, 2026
+  highlights:
+  - AI-powered visualization annotations generally available
+  - Notion integration for AI context
+  - Apps enabled by default for new organizations
+- version: Week of June 15, 2026
+  highlights:
+  - Spacer and divider dashboard elements
+  - AI file uploads
+  - Notion database connections via MCP
+  - Bulk actions for AI suggestions
+- version: Week of June 8, 2026
+  highlights:
+  - AI-powered suggestions generally available
+  - New API endpoints for document publishing and model suggestions
+  - Map viewport configuration
+- version: Week of June 1, 2026
+  highlights:
+  - Calculation pushdown for range references
+  - Dynamic top-N parameterization
+  - Simplified Slack integration
+  - Timezone overrides in embed URLs
+- version: Week of May 25, 2026
+  highlights:
+  - AI Hub now available
+  - Markdown columns support
+  - AI skills with required access grants
+  - Dynamic filter dashboard controls

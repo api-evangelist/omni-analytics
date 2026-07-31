@@ -1,0 +1,37 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.omni.co/administration/authentication
+standards:
+- id: oauth2
+  conforms: true
+  evidence: REST API and MCP server support OAuth 2.1 authorization-code flow.
+- id: oidc
+  conforms: true
+  evidence: OIDC IdP authentication documented (Microsoft Entra, Okta, Google Workspace).
+- id: saml2
+  conforms: true
+  evidence: SAML authentication documented for Entra, Okta, and Google Workspace.
+- id: scim2
+  conforms: true
+  evidence: SCIM user/group auto-provisioning documented and exposed via CLI `scim` command group.
+- id: soc2-type-ii
+  conforms: true
+  evidence: Annual SOC 2 Type II audits (exploreomni.com/security, trust.omni.co).
+- id: hipaa
+  conforms: true
+  evidence: HIPAA compliance stated (exploreomni.com/security).
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance stated (exploreomni.com/security).
+- id: ccpa
+  conforms: true
+  evidence: CCPA compliance stated (exploreomni.com/security).
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI or documented problem+json error envelope found.
+- id: iso-27001
+  conforms: false
+  evidence: Not listed on the security or trust pages.
+- id: pci-dss
+  conforms: false
+  evidence: Not applicable / not listed.

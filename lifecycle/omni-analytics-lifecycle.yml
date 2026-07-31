@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.omni.co/changelog
+versioning:
+  scheme: weekly-date
+  current: Week of July 13, 2026
+  docs: https://docs.omni.co/changelog
+  notes: >-
+    Omni ships weekly, dated product updates rather than semantic API versions.
+    The REST API is versioned per-path (e.g. /api/v1/...).
+status_page: https://status.omni.co
+changelog: https://docs.omni.co/changelog
+sla:
+  notes: >-
+    No public SLA/uptime target page found; a live status page is published at
+    status.omni.co.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No public deprecation policy or RFC 8594 Sunset/Deprecation header support documented.

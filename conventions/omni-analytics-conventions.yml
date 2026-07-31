@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.omni.co/docs/API
+authentication:
+  style: bearer-token
+  header: Authorization
+  scheme: Bearer <api_key>
+  oauth: OAuth 2.1 authorization-code (Personal Access Tokens)
+  ref: authentication/omni-analytics-authentication.yml
+base_url:
+  pattern: https://<instance>.omniapp.co/api
+  notes: The API base URL mirrors your Omni login URL with /api appended. HTTPS only.
+versioning:
+  style: uri-path
+  example: /api/v1/...
+  ref: lifecycle/omni-analytics-lifecycle.yml
+transport:
+  https_only: true
+idempotency:
+  supported: unknown
+  notes: No idempotency-key header or mechanism documented in the public API docs reviewed.
+pagination:
+  style: unknown
+  notes: Not documented in the reviewed public pages; no public OpenAPI to derive from.
+error_envelope:
+  style: unknown
+  notes: No public error-code reference or problem+json envelope documented.
+rate_limits:
+  documented: false
+  notes: No public rate-limit policy found.
+related:
+  changelog: changelog/omni-analytics-changelog.yml
+  cli: cli/omni-analytics-cli.yml
+  mcp: mcp/omni-analytics-mcp.yml
