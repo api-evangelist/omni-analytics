@@ -81,8 +81,6 @@ common:
   url: security/omni-analytics-trust-center.yml
 - type: DomainSecurity
   url: security/omni-analytics-domain-security.yml
-- type: Website
-  url: exploreomni.com
 - type: DeveloperPortal
   url: https://docs.omni.co
 - type: Documentation
