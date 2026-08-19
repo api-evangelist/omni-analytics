@@ -5,19 +5,16 @@ source: https://docs.omni.co/docs/ai/mcp
 server:
   name: omni
   vendor: Omni Analytics
-  description: >-
-    Official Omni MCP server for natural language querying across your datasets,
-    scoped to specific models and respecting user permissions. Configured via
-    AI Hub > MCP. Works with Claude, ChatGPT, Cursor and other MCP clients.
+  description: Official Omni MCP server for natural language querying across your datasets, scoped to
+    specific models and respecting user permissions. Configured via AI Hub > MCP. Works with Claude, ChatGPT,
+    Cursor and other MCP clients.
   docs: https://docs.omni.co/docs/ai/mcp
   auth:
     methods:
     - oauth2.1
     - api_key
-    notes: >-
-      OAuth 2.1 (recommended) sets up through the browser and creates API keys
-      automatically; requires Personal Access Tokens to be enabled. API key is
-      supported for centralized/automated workflows.
+    notes: OAuth 2.1 (recommended) sets up through the browser and creates API keys automatically; requires
+      Personal Access Tokens to be enabled. API key is supported for centralized/automated workflows.
 tools:
 - name: pickModel
   description: Returns available models and their IDs for the client to select which model to query.
@@ -31,3 +28,9 @@ tools:
   description: Polls the status of a previously submitted job by jobId.
 - name: searchOmniDocs
   description: AI-powered search of the official Omni documentation for product and how-to questions.
+deployment:
+  mode: unclear
+  verified: searched
+  tools: 6
+  checked: '2026-08-12'
+  source: catalog MCP census
