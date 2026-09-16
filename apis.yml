@@ -29,17 +29,14 @@ x-enrichment:
   artifacts_added: 16
   pass: local-v1
 name: Omni Analytics
-description: >-
-  Omni is a business intelligence and embedded analytics platform that turns raw
-  warehouse data into trusted insights. It combines a central semantic layer with
-  an AI chat interface, dashboards, spreadsheets, a point-and-click builder, and a
-  SQL IDE, so data teams and business users can query data conversationally and
-  then refine results with traditional analytics tools. Omni exposes a REST API,
-  a hosted MCP server, a Go CLI, a Python SDK, and a library of published Agent
-  Skills for programmatic and agent-driven access, plus white-label embedded
-  analytics via SSO. It connects to Snowflake, BigQuery, Databricks, dbt and other
-  warehouses, and is backed by GV (Google Ventures). Customers include Condé Nast,
-  BuzzFeed, Perplexity, dbt Labs, and TripAdvisor.
+description: Omni is a business intelligence and embedded analytics platform that turns raw warehouse
+  data into trusted insights. It combines a central semantic layer with an AI chat interface, dashboards,
+  spreadsheets, a point-and-click builder, and a SQL IDE, so data teams and business users can query data
+  conversationally and then refine results with traditional analytics tools. Omni exposes a REST API,
+  a hosted MCP server, a Go CLI, a Python SDK, and a library of published Agent Skills for programmatic
+  and agent-driven access, plus white-label embedded analytics via SSO. It connects to Snowflake, BigQuery,
+  Databricks, dbt and other warehouses, and is backed by GV (Google Ventures). Customers include Condé
+  Nast, BuzzFeed, Perplexity, dbt Labs, and TripAdvisor.
 url: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -49,7 +46,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-16'
 tags:
 - Company
 - Enterprise
@@ -62,13 +59,11 @@ tags:
 - MCP
 apis:
 - name: Omni REST API
-  description: >-
-    The Omni REST API provides programmatic access to an Omni instance: models,
-    topics, views and fields; documents, dashboards and folders; query execution
-    and scheduling; users, groups and permissions; connections and dbt; uploads;
-    and AI operations. The API base URL mirrors your Omni login URL with /api
-    appended (for example https://<instance>.omniapp.co/api) and accepts HTTPS
-    only. Authentication is via API key bearer token or OAuth 2.1.
+  description: 'The Omni REST API provides programmatic access to an Omni instance: models, topics, views
+    and fields; documents, dashboards and folders; query execution and scheduling; users, groups and permissions;
+    connections and dbt; uploads; and AI operations. The API base URL mirrors your Omni login URL with
+    /api appended (for example https://<instance>.omniapp.co/api) and accepts HTTPS only. Authentication
+    is via API key bearer token or OAuth 2.1.'
   humanURL: https://docs.omni.co/docs/API
   baseURL: https://omniapp.co/api
   properties:
@@ -88,6 +83,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Website
+  url: https://omni.co
 - type: TrustCenter
   url: security/omni-analytics-trust-center.yml
 - type: DomainSecurity
