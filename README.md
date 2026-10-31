@@ -64,6 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Omni Analytics is a company surfaced as a portfolio company of gv and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment pipeline.
+Omni is a business intelligence and embedded analytics platform that turns raw warehouse data into trusted insights. It combines a central semantic layer with an AI chat interface, dashboards, spreadsheets, a point-and-click builder, and a SQL IDE, so data teams and business users can query data conversationally and then refine results with traditional analytics tools. Omni exposes a REST API, a hosted MCP server, a Go CLI, a Python SDK, and a library of published Agent Skills for programmatic and agent-driven access, plus white-label embedded analytics via SSO. It connects to Snowflake, BigQuery, Databricks, dbt and other warehouses, and is backed by GV (Google Ventures). Customers include Condé Nast, BuzzFeed, Perplexity, dbt Labs, and TripAdvisor.
 
-Backed by: gv — exploreomni.com
+**Areas:** Company · Enterprise · Analytics · Business Intelligence · Embedded Analytics · Semantic Layer · Artificial Intelligence · Data · MCP
+
+## Omni Analytics on APIs.io
+
+Everything profiled for Omni Analytics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/omni-analytics/](https://apis.io/providers/omni-analytics/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Omni REST API](https://apis.io/apis/omni-analytics/omni-rest-api/) — The Omni REST API provides programmatic access to an Omni instance: models, topics, views and fields; documents, dashboards and folders; query execution and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [omni](https://apis.io/servers/omni-analytics/omni/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Omni Analytics Authentication](https://apis.io/security/omni-analytics/omni-analytics-authentication/)
+- [Omni Analytics Domain Security](https://apis.io/security/omni-analytics/omni-analytics-domain-security/)
+- [Omni Analytics Trust Center](https://apis.io/security/omni-analytics/omni-analytics-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://omni.co)
+- [Documentation](https://docs.omni.co)
+- [Getting started](https://docs.omni.co/docs/API)
+- [API reference](https://docs.omni.co/docs/API)
+- [Sign up](https://exploreomni.com/demo)
+- [Support](https://exploreomni.com/customer-support)
+- [Changelog](https://docs.omni.co/changelog)
+- [Blog](https://omni.co/blog)
+- [Security](https://exploreomni.com/security)
+- [Compliance](https://exploreomni.com/security)
+- [Terms of service](https://exploreomni.com/terms)
+- [Privacy policy](https://exploreomni.com/privacy)
+- [GitHub](https://github.com/exploreomni)
+- [Status](https://status.omni.co)
+
+## API Evangelist rating
+
+**Kin Score 42.7** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 44.7 |
+| Developer ergonomics | 78.6 |
+| Access clarity | 50.0 |
+
+**Agent readiness 9.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | yes |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/omni-analytics/](https://apis.io/providers/omni-analytics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Omni Analytics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/omni-analytics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
